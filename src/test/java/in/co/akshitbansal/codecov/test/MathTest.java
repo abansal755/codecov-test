@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 class MathTest {
 
 	@Test
-	public void testAdd() {
+	void testAdd() {
 		Assertions.assertEquals(3, Math.add(1, 2));
 	}
 }
