@@ -9,4 +9,9 @@ class MathTest {
 	void testAdd() {
 		Assertions.assertEquals(3, Math.add(1, 2));
 	}
+
+	@Test
+	void testSubtract() {
+		Assertions.assertEquals(1, Math.subtract(2, 1));
+	}
 }
